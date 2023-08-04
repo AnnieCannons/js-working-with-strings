@@ -12,6 +12,13 @@ let userName9 = 'Edward chistopher Olmos';
 let userName10 = 'Dr. Violet Smith';
 
 // Modify the strings here
+let firstName1 = (userName1.slice(0, 4));
+let lastName1 = (userName1.slice(7, 12));
+let firstName2 = (userName2[0].toUpperCase(0, 1) + userName2.slice(1, 6));
+let lastName2 = 
+
+
+
 
 /**************************** Exercise 2  - Formatting Dates ****************************/
 
