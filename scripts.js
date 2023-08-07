@@ -14,9 +14,24 @@ let userName10 = 'Dr. Violet Smith';
 // Modify the strings here
 let firstName1 = (userName1.slice(0, 4));
 let lastName1 = (userName1.slice(7, 12));
-let firstName2 = (userName2[0].toUpperCase(0, 1) + userName2.slice(1, 6));
-let lastName2 = 
-
+let firstName2 = (userName2[0].toUpperCase() + userName2.slice(1, 6));
+let lastName2 = (userName2[7] + userName2.slice(8).toLowerCase());
+let firstName3 = (userName3.slice(5, 10));
+let lastName3 = (userName3[11].toUpperCase() + userName3.slice(12));
+let firstName4 = (userName4.slice(4, 9));
+let lastName4 = (userName4.slice(10));
+let firstName5 = (userName5[0].toUpperCase() + userName5.slice(1, 5));
+let lastName5 = (userName5[6].toUpperCase() + userName5.slice(7));
+let firstName6 = (userName6[0] + userName6.slice(1, 7).toLowerCase());
+let lastName6 = (userName6.slice(8));
+let firstName7 = (userName7.slice(0, 7));
+let lastName7 = (userName7.slice(8, 12));
+let firstName8 = (userName8.trim().slice(0, 7));
+let lastName8 = (userName8.trim().slice(8));
+let firstName9 = (userName9.slice(0, 6));
+let lastName9 = (userName9.slice(18));
+let firstName10 = (userName10.slice(4, 10));
+let lastName10 = (userName10.slice(11));
 
 
 
