@@ -42,8 +42,11 @@ let todaysDate = new Date().toISOString();
 console.log(todaysDate);
 
 // Change the string above to only show the date.
+todaysDate = new Date().toISOString().slice(0, 10);
+
 
 // Change the string to be MM/DD/YYYY.
+
 
 // Run the following code in the browser.
 let futureDate = '2025-10-31';
@@ -61,6 +64,12 @@ let email4 = 'gracehopper@academy.COM';
 let email5 = 'roslinaccounting  @gmail.com'
 
 // Modify the strings here
+let correctEmail1 = (email1.toLowerCase());
+let correctEmail2 = (email2.toLowerCase());
+let correctEmail3 = (email3.toLowerCase());
+let correctEmail4 = (email4.toLowerCase());
+let correctEmail5 = (email5.slice(0, 16) + email5.slice(18));
+
 
 
 
