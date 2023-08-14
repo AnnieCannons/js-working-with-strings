@@ -59,8 +59,24 @@ let todaysDate = new Date().toISOString();
 console.log(todaysDate);
 
 // Change the string above to only show the date.
+todaysDate = new Date().toISOString().slice(0, 10);
+console.log(todaysDate);
 
 // Change the string to be MM/DD/YYYY.
+
+/*todaysDate = new Date(dateString);
+const formattedDate = new Intl.DateTimeFormat("en-US", {
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit"
+}).format(date);
+
+console.log(formattedDate);*/
+
+/*todaysDate = new Date().toISOString().slice(5, 7) + "/"  ;*/
+
+let formattedDate = todaysDate.slice(5, 7) + "/" + todaysDate.slice(8, 10) + "/" +todaysDate.slice(0, 4);
+console.log(formattedDate);
 
 // Run the following code in the browser.
 let futureDate = '2025-10-31';
@@ -68,7 +84,8 @@ let futureDateFormatted = new Date(futureDate)
 console.log(futureDateFormatted);
 
 //Manipulate the above string to display it in the MM/DD/YEAR format.
-
+let newDate = futureDate.slice(5, 7) + "/" + futureDate.slice(8, 10) + "/" + futureDate.slice(0, 4);
+console.log(newDate);
 
 /**************************** Exercise 3 - Formatting Emails ****************************/
 let email1 = 'INFO@airbnb.com';
