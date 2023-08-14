@@ -141,3 +141,15 @@ console.log(`I have ${dogs} dogs.`)
 
 /**************************** Exercise 6 - Research  ****************************/
 // Add your methods and examples of each method here.
+
+/*replace()*/
+const pastaDish = "spagetti";
+const update = pastaDish.replace("spag", "conf");
+
+console.log(pastaDish);
+console.log(update);
+
+/*startsWith();
+endsWith();
+includes();*/
+
