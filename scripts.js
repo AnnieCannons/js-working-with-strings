@@ -16,12 +16,12 @@ let firstName1 = userName1.slice(0, 4);
 let lastName1 = userName1.slice(7,12);
 console.log(firstName1 + " " + lastName1);
 
-let firstName2 = (userName2[0].toUpperCase() + userName2.slice(1,6));
-let lastName2 = (userName2[7] + userName2.slice (8).toLowerCase());
+let firstName2 = userName2[0].toUpperCase() + userName2.slice(1,6);
+let lastName2 = userName2[7] + userName2.slice (8).toLowerCase();
 console.log(firstName2 + " " + lastName2);
 
 let firstName3 = userName3.slice(5, 10);
-let lastName3 = (userName3[11].toUpperCase() + userName3.slice(12, 19));
+let lastName3 = userName3[11].toUpperCase() + userName3.slice(12, 19);
 console.log(firstName3 + " " + lastName3);
 
 let firstName4 = userName4.slice(4, 9);
@@ -63,18 +63,6 @@ todaysDate = new Date().toISOString().slice(0, 10);
 console.log(todaysDate);
 
 // Change the string to be MM/DD/YYYY.
-
-/*todaysDate = new Date(dateString);
-const formattedDate = new Intl.DateTimeFormat("en-US", {
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit"
-}).format(date);
-
-console.log(formattedDate);*/
-
-/*todaysDate = new Date().toISOString().slice(5, 7) + "/"  ;*/
-
 let formattedDate = todaysDate.slice(5, 7) + "/" + todaysDate.slice(8, 10) + "/" +todaysDate.slice(0, 4);
 console.log(formattedDate);
 
@@ -95,7 +83,20 @@ let email4 = 'gracehopper@academy.COM';
 let email5 = 'roslinaccounting  @gmail.com'
 
 // Modify the strings here
+let formatedEmail1 = email1.toLowerCase();
+console.log(formatedEmail1);
 
+let formatedEmail2 = email2.toLowerCase();
+console.log(formatedEmail2);
+
+let formatedEmail3 = email3.toLowerCase();
+console.log(formatedEmail3);
+
+let formatedEmail4 = email4.toLowerCase();
+console.log(formatedEmail4);
+
+let formatedEmail5 = email5.toLowerCase();
+console.log(formatedEmail5);
 
 
 
