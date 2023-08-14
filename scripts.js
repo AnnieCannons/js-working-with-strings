@@ -99,14 +99,18 @@ let formatedEmail5 = email5.toLowerCase();
 console.log(formatedEmail5);
 
 
-
 /**************************** Exercise 4 - Formatting Passwords  ****************************/
 // For the following password, check to see if contains more than 12 characters. Display an alert that says, "Password is [NUMBER] characters long."
 let password = 'mypass';
+let passwordCheck = password.length;
+
+console.log(passwordCheck);
+/*alert("Password is " + passwordCheck + " characters long." )*/
 
 
 
 // What is the following code doing? 
+"checking to see if there are any special characters in the string"
 // Resource here: ["https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions"]
 let specialChars = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]+/;
 let string = 'Hello World!';
@@ -114,11 +118,10 @@ console.log(specialChars.test(string))
 
 // How would you run the above test on the password given above?
 
-
+console.log(specialChars.test(password));
 
 // How would you check to see if a string contains numbers?
-
-
+console.log(/\d/.test(password));
 
 
 
