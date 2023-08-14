@@ -129,11 +129,15 @@ console.log(/\d/.test(password));
 
 
 // Declare two variables and concatenate them to form a new string. Print the result to the console.
+let v1 = "This is ";
+let v2 = "complete sentence.";
 
-
+let v3 = v1 + v2;
+console.log(v3);
 
 // Declare two variables and use string interpolation to join them to form a new string. Print the result to the console.
-
+const dogs = '3';
+console.log(`I have ${dogs} dogs.`)
 
 /**************************** Exercise 6 - Research  ****************************/
 // Add your methods and examples of each method here.
