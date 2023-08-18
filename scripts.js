@@ -51,7 +51,7 @@ let lastName6 = name6[1].at(0).toUpperCase() + name6[1].substr(1).toLowerCase();
 
 const name7 = userName7.split(" ");
 
-let firstName7 = name5[0].at(0).toUpperCase() +  name7[0].substr(1).toLowerCase();
+let firstName7 = name7[0].at(0).toUpperCase() +  name7[0].substr(1).toLowerCase();
 
 let lastName7 = name7[1].at(0).toUpperCase() + name7[1].substr(1).toLowerCase();
 
