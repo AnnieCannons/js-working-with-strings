@@ -1,5 +1,4 @@
-/***************************** Exercise 1 - Formatting Names ****************************/
-
+//***************************** Exercise 1 - Formatting Names ****************************/
 let userName1 = 'John L James';
 let userName2 = 'corina SMITH';
 let userName3 = 'Miss Sunny sunshine';
@@ -12,8 +11,19 @@ let userName9 = 'Edward chistopher Olmos';
 let userName10 = 'Dr. Violet Smith';
 
 // Modify the strings here
+let firstName = userName7.slice(6,12);
+let lastName = userName7.slice(0,5);
+let fullname = firstName+" "+ lastName;
 
-/**************************** Exercise 2  - Formatting Dates ****************************/
+console.log(fullname.toLowerCase());
+console.log(fullname = userName2.toLowerCase())
+console.log(fullname = userName3.slice(4).trim().toLowerCase())
+console.log(fullname = userName4.slice(4).toLowerCase())
+console.log(fullname = userName5)
+console.log (fullname = userName6.toLowerCase())
+console.log(fullname = us)`
+
+// **************************** Exercise 2  - Formatting Dates **************************** //
 
 // Run the following code in the browser.
 let todaysDate = new Date().toISOString();
@@ -31,7 +41,7 @@ console.log(futureDateFormatted);
 //Manipulate the above string to display it in the MM/DD/YEAR format.
 
 
-/**************************** Exercise 3 - Formatting Emails ****************************/
+/**************************** Exercise 3 - Formatting Emails ****************************//
 let email1 = 'INFO@airbnb.com';
 let email2 = 'lukeDanes@thediner.com';
 let email3 = 'testingAccount@gmail.com';
