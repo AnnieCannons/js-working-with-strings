@@ -21,17 +21,23 @@ console.log(fullname = userName3.slice(4).trim().toLowerCase())
 console.log(fullname = userName4.slice(4).toLowerCase())
 console.log(fullname = userName5)
 console.log (fullname = userName6.toLowerCase())
-console.log(fullname = us)`
+`
 
 // **************************** Exercise 2  - Formatting Dates **************************** //
 
 // Run the following code in the browser.
+
 let todaysDate = new Date().toISOString();
+
 console.log(todaysDate);
 
 // Change the string above to only show the date.
 
+todaysDate = new date().toDateString();
+
 // Change the string to be MM/DD/YYYY.
+
+todaysDate = new date().toLocalDateString();
 
 // Run the following code in the browser.
 let futureDate = '2025-10-31';
@@ -40,8 +46,9 @@ console.log(futureDateFormatted);
 
 //Manipulate the above string to display it in the MM/DD/YEAR format.
 
+futureDateFormatted.toLocalDateString();
 
-/**************************** Exercise 3 - Formatting Emails ****************************//
+/**************************** Exercise 3 - Formatting Emails ****************************
 let email1 = 'INFO@airbnb.com';
 let email2 = 'lukeDanes@thediner.com';
 let email3 = 'testingAccount@gmail.com';
@@ -85,5 +92,5 @@ console.log(specialChars.test(string))
 // Declare two variables and use string interpolation to join them to form a new string. Print the result to the console.
 
 
-/**************************** Exercise 6 - Research  ****************************/
-// Add your methods and examples of each method here.
+//**************************** Exercise 6 - Research  ****************************/
+// Add your methods and examples of each method here
