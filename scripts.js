@@ -56,7 +56,12 @@ let email4 = 'gracehopper@academy.COM';
 let email5 = 'roslinaccounting  @gmail.com'
 
 // Modify the strings here
-
+ email1.toLowerCase()
+ email2.toLowerCase()
+ email3.toLowerCase()
+ email4.toLowerCase()
+ email5.trim().toLowerCase()
+//  email 5 im a little unsure will keep working on it 
 
 
 
