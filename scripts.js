@@ -16,12 +16,12 @@ let lastName = userName7.slice(0,5);
 let fullname = firstName+" "+ lastName;
 
 console.log(fullname.toLowerCase());
-console.log(fullname = userName2.toLowerCase())
-console.log(fullname = userName3.slice(4).trim().toLowerCase())
-console.log(fullname = userName4.slice(4).toLowerCase())
-console.log(fullname = userName5)
-console.log (fullname = userName6.toLowerCase())
-`
+console.log(fullname = userName2.toLowerCase());
+console.log(fullname = userName3.slice(4).trim().toLowerCase());
+console.log(fullname = userName4.slice(4).toLowerCase());
+console.log(fullname = userName5);
+console.log(fullname = userName6.toLowerCase());
+
 
 // **************************** Exercise 2  - Formatting Dates **************************** //
 
@@ -33,11 +33,11 @@ console.log(todaysDate);
 
 // Change the string above to only show the date.
 
-todaysDate = new date().toDateString();
+todaysDate = new Date().toDateString();
 
 // Change the string to be MM/DD/YYYY.
 
-todaysDate = new date().toLocalDateString();
+todaysDate =new Date().toLocaleDateString();
 
 // Run the following code in the browser.
 let futureDate = '2025-10-31';
@@ -46,9 +46,9 @@ console.log(futureDateFormatted);
 
 //Manipulate the above string to display it in the MM/DD/YEAR format.
 
-futureDateFormatted.toLocalDateString();
+futureDateFormatted.toLocaleDateString();
 
-/**************************** Exercise 3 - Formatting Emails ****************************
+//**************************** Exercise 3 - Formatting Emails ****************************
 let email1 = 'INFO@airbnb.com';
 let email2 = 'lukeDanes@thediner.com';
 let email3 = 'testingAccount@gmail.com';
@@ -60,12 +60,12 @@ let email5 = 'roslinaccounting  @gmail.com'
  email2.toLowerCase()
  email3.toLowerCase()
  email4.toLowerCase()
- email5.trim().toLowerCase()
+ email5.slice(0,16)
 //  email 5 im a little unsure will keep working on it 
 
 
 
-/**************************** Exercise 4 - Formatting Passwords  ****************************/
+//**************************** Exercise 4 - Formatting Passwords  ****************************/
 // For the following password, check to see if contains more than 12 characters. Display an alert that says, "Password is [NUMBER] characters long."
 let password = 'mypass';
 
