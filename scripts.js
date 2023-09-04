@@ -60,8 +60,7 @@ let email5 = 'roslinaccounting  @gmail.com'
  email2.toLowerCase()
  email3.toLowerCase()
  email4.toLowerCase()
- email5.slice(0,16)
-//  email 5 im a little unsure will keep working on it 
+email5.split(" ").join("")
 
 
 
@@ -79,11 +78,11 @@ console.log(specialChars.test(string))
 
 // How would you run the above test on the password given above?
 
-
+console.log(specialChars.test(password))
 
 // How would you check to see if a string contains numbers?
-
-
+let lola = /\d/;
+console.log(lola.test(password));
 
 
 
@@ -91,11 +90,13 @@ console.log(specialChars.test(string))
 
 
 // Declare two variables and concatenate them to form a new string. Print the result to the console.
-
-
+let word1 = "lai"
+let word2 = "la"
+let result = word1.concat(word2)
 
 // Declare two variables and use string interpolation to join them to form a new string. Print the result to the console.
 
-
+console.log(result)
+console
 //**************************** Exercise 6 - Research  ****************************/
 // Add your methods and examples of each method here
