@@ -43,9 +43,12 @@ console.log(todaysDate);
 
 // Change the string above to only show the date.
 todaysDate = new Date().toISOString().slice(0, 10);
-
+console.log(todaysDate);
 
 // Change the string to be MM/DD/YYYY.
+
+let formattedDate = todaysDate.slice(5, 7) + "/" + todaysDate.slice(8, 10) + "/" +todaysDate.slice(0, 4);
+console.log(formattedDate);
 
 
 // Run the following code in the browser.
@@ -54,6 +57,9 @@ let futureDateFormatted = new Date(futureDate)
 console.log(futureDateFormatted);
 
 //Manipulate the above string to display it in the MM/DD/YEAR format.
+
+let newDate = futureDate.slice(5, 7) + "/" + futureDate.slice(8, 10) + "/" + futureDate.slice(0, 4);
+console.log(newDate);
 
 
 /**************************** Exercise 3 - Formatting Emails ****************************/
@@ -77,6 +83,10 @@ let correctEmail5 = (email5.slice(0, 16) + email5.slice(18));
 /**************************** Exercise 4 - Formatting Passwords  ****************************/
 // For the following password, check to see if contains more than 12 characters. Display an alert that says, "Password is [NUMBER] characters long."
 let password = 'mypass';
+let passLength = password.length
+console.log(passLength)
+
+//alert(`Password is ${passLength} characters long.`)
 
 
 
@@ -84,13 +94,16 @@ let password = 'mypass';
 // Resource here: ["https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions"]
 let specialChars = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]+/;
 let string = 'Hello World!';
-console.log(specialChars.test(string))
+console.log(specialChars.test(string));
 
 // How would you run the above test on the password given above?
 
-
+//The console log above runs the test on the string variable above to see if the "string" contains any of the special characters contained in "specialChars". The console logs "true", meaning that the string variable contains a special character. (!)
 
 // How would you check to see if a string contains numbers?
+
+let containsNumbers =  /\d/
+console.log(containsNumbers.test(string));
 
 
 
@@ -101,10 +114,22 @@ console.log(specialChars.test(string))
 
 // Declare two variables and concatenate them to form a new string. Print the result to the console.
 
+let myFirstName = "Taylor";
+
+let myAge = 28;
+
+console.log("Hello, " + myFirstName + " you are " + myAge + " years old.");
 
 
 // Declare two variables and use string interpolation to join them to form a new string. Print the result to the console.
 
+let dog1 = "Nemo";
+let dog2 = "Meeko";
+
+console.log(`The names of my dogs are ${dog1} and ${dog2}.`)
+
 
 /**************************** Exercise 6 - Research  ****************************/
 // Add your methods and examples of each method here.
+
+// I have no idea what this question is asking, but some methods I used in this assignment include .slice() (as seen in exercises 1, 2, 3), .trim()(exercise 1), .toUpperCase() and .toLowerCase() (exercise 1 and 3), and .test in exercise 4.
