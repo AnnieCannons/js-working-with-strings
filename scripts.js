@@ -95,14 +95,17 @@ console.log(formatedEmail3);
 let formatedEmail4 = email4.toLowerCase();
 console.log(formatedEmail4);
 
-let formatedEmail5 = email5.toLowerCase();
+let formatedEmail5 = email5.slice(0, 16) + email5.slice(18);
 console.log(formatedEmail5);
 
 
 /**************************** Exercise 4 - Formatting Passwords  ****************************/
 // For the following password, check to see if contains more than 12 characters. Display an alert that says, "Password is [NUMBER] characters long."
 let password = 'mypass';
-let passwordCheck = password.length;
+if (password.length <= 12) {
+    alert('Password is only' + password.length + 'characters long.');
+};
+//let passwordCheck = password.length;
 
 console.log(passwordCheck);
 /*alert("Password is " + passwordCheck + " characters long." )*/
