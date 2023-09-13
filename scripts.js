@@ -99,16 +99,21 @@ console.log(todaysDate);
 
 // Change the string above to only show the date.
 
+
+
 // Change the string to be MM/DD/YYYY.
 
 // Run the following code in the browser.
-let futureDate = '2025-10-31';
+let futureDate = [2025, 10, 31];
 let futureDateFormatted = new Date(futureDate)
 console.log(futureDateFormatted);
-
-futureDate = '10-31-2025';
-
+futureDate.push(futureDate.shift())
+let nDate = futureDate.join('-')
+futureDate=nDate
 console.log(futureDate);
+
+
+console.log(futureDateFormatted);
 
 //Manipulate the above string to display it in the MM/DD/YEAR format.
 
@@ -135,8 +140,12 @@ let password = 'mypass';
 
 console.log(password.length); // password length
 
-/* alert('password is six characters long'); */
+//alert('password is ' + password.length + ' characters long');
 
+
+if (password >= 12) {
+alert("Password is " + password.length + " characters long");
+};
 
 // What is the following code doing? 
 // Resource here: ["https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions"]
