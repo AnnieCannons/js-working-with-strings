@@ -43,7 +43,7 @@
 - You will regularly need to modify data to make sure that it is ready for the storage in a database. Often times, for emails, you will need to make sure that the entire string is in lowercase so that it will be treated as the same value, regardless if the user types in info@anniecannons.com or Info@anniecannons.com
     1. Take the strings listed and make sure that they are formatted property.
     2. Log your variables in the console to check to make sure they are formatted properly.
-
+ 
 ### Exercise 4
 
 - It is really important to be able to run processes on passwords to make sure they meet the security requirements of your site.
@@ -52,7 +52,7 @@
 ### Exercise 5
 
 - Combining strings is an important tool for working with data. There are two main ways to combine strings.
-    1. Follow the instructions in the `scripts.js` file for concetenating strings.
+    1. Follow the instructions in the `scripts.js` file for concatenating strings.
 
 ### Exercise 6
 
