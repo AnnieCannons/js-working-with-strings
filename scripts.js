@@ -139,3 +139,12 @@ console.log('The subclass contains ' + definedRoles + ' for one on one work.')
 
 /**************************** Exercise 6 - Research  ****************************/
 // Add your methods and examples of each method here.
+// eval method allows code written as a string to be evaluated and executed
+let expression = "2 + 3"; 
+let answer = eval(expression); 
+console.log(answer)
+
+let str1 = 'Hello, User';
+let usernameInfo = prompt("Enter your username");
+let username = usernameInfo 
+console.log(str1.replace("User", username));
