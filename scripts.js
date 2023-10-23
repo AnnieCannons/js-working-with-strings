@@ -58,6 +58,7 @@ console.log(todaysDate)
 // Change the string to be MM/DD/YYYY.
 
 todaysDate = new Date().toLocaleDateString();
+console.log(todaysDate, "todaysDate")
 
 // Run the following code in the browser.
 let futureDate = '2025-10-31';
