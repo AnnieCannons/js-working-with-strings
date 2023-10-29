@@ -94,18 +94,18 @@ console.log(lastName10);
 
 // Run the following code in the browser.
 let todaysDate = new Date();
-console.log(todaysDate);
+console.log(todaysDate, "TODAYS DATE");
 
 // Change the string above to only show the date.
 let onlyDate = new Date().toISOString().split('T')[0];
-console.log(onlyDate);
+console.log(onlyDate, "DATE ONLY");
 
 // // Change the string to be MM/DD/YYYY.
-let dateObj = new Date ('08-15-2023');
-console.log(dateObj)
+let todayDate = new Date().toLocaleDateString('en-US');
+console.log(todayDate, "TODAY DATE");
 
 // Run the following code in the browser.
-let futureDate = ('2025-10-31');
+let futureDate = ('10-31-2025');
 let futureDateFormatted = new Date(futureDate);
 console.log(futureDateFormatted);
 
